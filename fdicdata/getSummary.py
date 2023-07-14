@@ -1,9 +1,9 @@
 import pandas as pd
 import urllib
 
-# example: get_summary(states = ["California", "New York"], date_range= ["2020", "2021"], fields =  ["DEP", "ASSET"])
+# example: getSummary(states = ["California", "New York"], date_range= ["2020", "2021"], fields =  ["DEP", "ASSET"])
 
-def get_summary(states, date_range, fields, limit=10000):
+def getSummary(states, date_range, fields, limit=10000):
     if len(date_range) != 2:
         raise ValueError("Date range should have two elements: start date and end date")
     if len(states) == 0:

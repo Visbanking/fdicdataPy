@@ -2,9 +2,9 @@ import io
 import pandas as pd
 import requests
 
-# example: get_history(CERT_or_NAME=3850, fields=["INSTNAME", "CERT", "PCITY", "PSTALP", "PZIP5"], CERT=True, limit=10)
+# example: getHistory(CERT_or_NAME=3850, fields=["INSTNAME", "CERT", "PCITY", "PSTALP", "PZIP5"], CERT=True, limit=10)
 
-def get_history(CERT_or_NAME, fields, CERT=True, limit=10000):
+def getHistory(CERT_or_NAME, fields, CERT=True, limit=10000):
     assert CERT_or_NAME is not None and fields is not None, "CERT_or_NAME and fields cannot be empty"
     
     url = f"https://banks.data.fdic.gov/api/history?"

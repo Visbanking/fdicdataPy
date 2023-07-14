@@ -2,9 +2,9 @@ import io
 import pandas as pd
 import requests
 
-# example: get_institution(name="Bank of America", fields=["NAME", "CITY", "STATE"], limit=10)
+# example: getInstitution(name="Bank of America", fields=["NAME", "CITY", "STATE"], limit=10)
 
-def get_institution(name=None, IDRSSD_or_CERT=None, fields=None, IDRSSD=True, limit=10000):
+def getInstitution(name=None, IDRSSD_or_CERT=None, fields=None, IDRSSD=True, limit=10000):
     assert fields is not None, "Fields cannot be empty"
     if name is not None and IDRSSD_or_CERT is not None:
         raise ValueError("Please use only 'name' or 'IDRRSD_or_CERT' parameter.")

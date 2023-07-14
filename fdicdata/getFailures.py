@@ -1,9 +1,9 @@
 import pandas as pd
 import requests
 
-# example: get_failures(['CERT'], date_range=('2010', '2015'))
+# example: getFailures(['CERT'], date_range=('2010', '2015'))
 
-def get_failures(fields, date_range=None, limit=10000):
+def getFailures(fields, date_range=None, limit=10000):
     import io 
     assert fields is not None, "Fields cannot be empty"
     if date_range is not None:

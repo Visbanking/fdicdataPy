@@ -1,3 +1,19 @@
+Metadata-Version: 2.1
+Name: fdicdata
+Version: 0.1.3
+Summary: The fdicdata package provides a set of functions for working with data from the Federal Deposit Insurance Corporation(FDIC), including retrieving financial data for FDIC-insured institutions and accessing the data taxonomy
+Home-page: https://github.com/Visbanking/fdicdataPy
+Author: Ugur Dar, Boray Yildiz
+Author-email: ugurdarr@gmail.com, boray.yldz@gmail.com
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
 ## fdicdata
 The fdicdata package provides a set of functions for working with data from the Federal Deposit Insurance Corporation (FDIC), including retrieving financial data for FDIC-insured institutions and accessing the data taxonomy.
 

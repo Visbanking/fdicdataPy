@@ -1,0 +1,17 @@
+README.md
+setup.py
+fdicdata/__init__.py
+fdicdata/dataTaxonomy.py
+fdicdata/getFailures.py
+fdicdata/getFinancials.py
+fdicdata/getHistory.py
+fdicdata/getInstitution.py
+fdicdata/getInstitutionsAll.py
+fdicdata/getLocation.py
+fdicdata/getSummary.py
+fdicdata/getTaxonomy.py
+fdicdata.egg-info/PKG-INFO
+fdicdata.egg-info/SOURCES.txt
+fdicdata.egg-info/dependency_links.txt
+fdicdata.egg-info/requires.txt
+fdicdata.egg-info/top_level.txt
