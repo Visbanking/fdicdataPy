@@ -1,0 +1,19 @@
+[project]
+name = "fdicdataPy"
+version = "0.1.0"
+authors = [
+  { name="Ugur Dar", email="ugurdarr@gmail.com" },
+  { name="Brian Pillmore", email="brian@visbanking.com" },
+]
+description = "A system provides a set of functions for working with data from the Federal Deposit Insurance Corporation (FDIC), including retrieving financial data for FDIC-insured institutions and accessing the data taxonomy."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://visbanking.com/opensource/"
+"Bug Tracker" = "https://github.com/visbanking/fdicdataPy/issues"

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: fdicdataPy
+Version: 0.1.0
+Summary: A system provides a set of functions for working with data from the Federal Deposit Insurance Corporation (FDIC), including retrieving financial data for FDIC-insured institutions and accessing the data taxonomy.
+Author-email: Ugur Dar <ugurdarr@gmail.com>, Brian Pillmore <brian@visbanking.com>
+Project-URL: Homepage, https://visbanking.com/opensource/
+Project-URL: Bug Tracker, https://github.com/visbanking/fdicdataPy/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE

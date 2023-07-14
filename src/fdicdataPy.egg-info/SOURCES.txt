@@ -1,0 +1,16 @@
+LICENCE
+README.md
+pyproject.toml
+src/__init__.py
+src/dataTaxonomy.py
+src/getFailures.py
+src/getFinancials.py
+src/getHistory.py
+src/getInstitution.py
+src/getLocation.py
+src/getSummary.py
+src/get_institutions_all.py
+src/fdicdataPy.egg-info/PKG-INFO
+src/fdicdataPy.egg-info/SOURCES.txt
+src/fdicdataPy.egg-info/dependency_links.txt
+src/fdicdataPy.egg-info/top_level.txt

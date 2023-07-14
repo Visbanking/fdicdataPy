@@ -1,0 +1,9 @@
+__init__
+dataTaxonomy
+getFailures
+getFinancials
+getHistory
+getInstitution
+getLocation
+getSummary
+get_institutions_all
