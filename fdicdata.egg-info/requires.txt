@@ -1,4 +1,0 @@
-pandas
-requests
-pyyaml
-urllib3
