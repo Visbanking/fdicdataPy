@@ -14,3 +14,5 @@ def getInstitutionsAll():
     except:
         print("ERROR: URL Changed please contact with package owner.")
         return None
+    
+print(getInstitutionsAll())

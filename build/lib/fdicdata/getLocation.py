@@ -14,3 +14,5 @@ def getLocation(cert, fields=['NAME', 'CITY', 'STNAME'], limit=10000):
     except Exception as e:
         print(f"ERROR: {str(e)}")
         return None
+
+print(getLocation(3850, fields=['NAME', 'CITY', 'ZIP']))

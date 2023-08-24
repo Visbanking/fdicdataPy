@@ -17,8 +17,8 @@ def getTaxonomy(taxonomy):
         print(f"Error downloading {taxonomy}. Status code: {response.status_code}")
 
 def dataTaxonomy(name):
-    if name not in ["institution", "location", "history", "summary", "failure", "financial"]:
-        raise ValueError("name argument must be one of these: institution, location, history, summary, failure, financial")
+    if name not in ["institution", "location", "history", "summary", "failure"]:
+        raise ValueError("name argument must be one of these: institution, location, history, summary, failure")
 
     try:
         taxonomy_file = f"{name}_properties.yaml"
@@ -41,3 +41,5 @@ def dataTaxonomy(name):
     except Exception as e:
         print(f"ERROR: {e}")
         return None
+
+print(dataTaxonomy("institution"))

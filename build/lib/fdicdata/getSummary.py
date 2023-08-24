@@ -1,7 +1,7 @@
 import pandas as pd
 import urllib
 
-# example: getSummary(states = ["California", "New York"], date_range= ["2020", "2021"], fields =  ["DEP", "ASSET"])
+# example: print(getSummary(states = ["California", "New York"], date_range= ["2020", "2021"], fields =  ["DEP", "ASSET"]))
 
 def getSummary(states, date_range, fields, limit=10000):
     if len(date_range) != 2:
@@ -26,4 +26,4 @@ def getSummary(states, date_range, fields, limit=10000):
         print(f"ERROR: {e}")
         return None
 
-
+print(getSummary(states = ["California", "New York"], date_range= ["2020", "2021"], fields =  ["DEP", "ASSET"]))

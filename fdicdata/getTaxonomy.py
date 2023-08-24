@@ -4,6 +4,7 @@ import requests
 import yaml
 import pandas as pd
 
+# example: dataTaxonomy("institution")
 
 def getTaxonomy(taxonomy):
     url = f"https://banks.data.fdic.gov/docs/{taxonomy}"

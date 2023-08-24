@@ -15,3 +15,10 @@ fdicdata.egg-info/SOURCES.txt
 fdicdata.egg-info/dependency_links.txt
 fdicdata.egg-info/requires.txt
 fdicdata.egg-info/top_level.txt
+tests/test.failures.py
+tests/test.financials.py
+tests/test.history.py
+tests/test.institution.py
+tests/test.location.py
+tests/test.summary.py
+tests/test.taxonomy.py

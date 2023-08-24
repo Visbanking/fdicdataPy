@@ -2,7 +2,7 @@ import io
 import pandas as pd
 import requests
 
-# example: getHistory(CERT_or_NAME=3850, fields=["INSTNAME", "CERT", "PCITY", "PSTALP", "PZIP5"], CERT=True, limit=10)
+# example: print(getHistory(CERT_or_NAME=3850, fields=["INSTNAME", "CERT", "PCITY", "PSTALP", "PZIP5"], CERT=True, limit=10))
 
 def getHistory(CERT_or_NAME, fields, CERT=True, limit=10000):
     assert CERT_or_NAME is not None and fields is not None, "CERT_or_NAME and fields cannot be empty"
@@ -23,4 +23,5 @@ def getHistory(CERT_or_NAME, fields, CERT=True, limit=10000):
         print(f"ERROR: {str(e)}")
         return None
 
+print(getHistory(CERT_or_NAME=3850, fields=["INSTNAME", "CERT", "PCITY", "PSTALP", "PZIP5"], CERT=True, limit=10))
 

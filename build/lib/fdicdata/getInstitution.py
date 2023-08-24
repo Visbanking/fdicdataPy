@@ -2,7 +2,7 @@ import io
 import pandas as pd
 import requests
 
-# example: getInstitution(name="Bank of America", fields=["NAME", "CITY", "STATE"], limit=10)
+# example: print(getInstitution(name="Bank of America", fields=["NAME", "CITY", "STATE"], limit=10))
 
 def getInstitution(name=None, IDRSSD_or_CERT=None, fields=None, IDRSSD=True, limit=10000):
     assert fields is not None, "Fields cannot be empty"
@@ -33,4 +33,4 @@ def getInstitution(name=None, IDRSSD_or_CERT=None, fields=None, IDRSSD=True, lim
         print(f"ERROR: {str(e)}")
         return None
 
-
+print(getInstitution(IDRSSD_or_CERT='480228', fields=["NAME", "CITY", "STATE"], limit=10))

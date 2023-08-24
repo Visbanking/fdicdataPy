@@ -2,8 +2,6 @@ import io
 import pandas as pd
 import requests
 
-# example: getFinancials(IDRSSD_or_CERT=37, metrics=["ASSET", "DEP"], limit=10, date_range=["2015-01-01", "*"])
-
 def getFinancials(IDRSSD_or_CERT, metrics, limit=1, IDRSSD=True, date_range=None):
     assert IDRSSD_or_CERT is not None and metrics is not None, "IDRSSD_or_CERT and metrics cannot be empty"
     assert isinstance(IDRSSD_or_CERT, int), "IDRSSD_or_CERT must be a numeric value"
@@ -24,4 +22,4 @@ def getFinancials(IDRSSD_or_CERT, metrics, limit=1, IDRSSD=True, date_range=None
         print(f"ERROR: {str(e)}")
         return None
 
-
+print(getFinancials(IDRSSD_or_CERT=37, metrics=["ASSET", "DEP"], limit=10, date_range=["2015-01-01", "*"]))
